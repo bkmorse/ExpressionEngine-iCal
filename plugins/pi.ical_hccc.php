@@ -117,9 +117,9 @@ class Ical_hccc {
   ?>
   Use as follows:
 
-  {exp:ical_hccc weblogs="12|2|3" time_zone="America/Dominica"}
+  {exp:ical_hccc weblog_id="{segment_1}" time_zone="America/Dominica"}
 
-  weblogs (required) = id's of each weblog
+  weblog_id (required) = id of weblog
   time_zone (optional) = php timezone format, will default to America/Dominica - http://www.php.net/manual/en/timezones.php
 
   <?php
